@@ -6,6 +6,8 @@ $ pnpm install
 Run with:
 $ pnpm run dev
 
+![terminal-screenshot](Screenshot-terminal.png)
+
 * Original README below *
 
 Solid State by HTML5 UP
