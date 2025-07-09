@@ -39,6 +39,7 @@ export const SOCIAL_MEDIA_ITEMS = [
 export const SITE = {
   title: 'This is Solid State',
   description: 'A free, fully responsive HTML5 + CSS3 site template, ported to Astro',
+  url: 'https://jocular-druid-fa3285.netlify.app/', // 🔧 Replace with your real Netlify URL
 };
 
 export const CONTACT = {
