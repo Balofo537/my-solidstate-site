@@ -1,14 +1,12 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
-import { SITE } from './src/config';
-
 import sitemap from '@astrojs/sitemap';
+import { SITE } from './src/config'; // pulls site.url
 
-// https://astro.build/config
 export default defineConfig({
+  site: SITE.url, // ✅ Required by RSS, Sitemap, etc.
   integrations: [mdx(), sitemap()],
   server: {
     host: '0.0.0.0',
   },
-  site: SITE.url,
 });
